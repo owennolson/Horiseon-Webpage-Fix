@@ -1,0 +1,202 @@
+/*adds a border around the whole webpage*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*sets the color of the background*/
+body {
+    background-color: #ffffff;
+}
+/*sets padding, font and colors to the header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*sets the tabs in the header and sets size*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*sets color of text in header*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/*sets the tabs to the right side of the header and gives them font and size*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*sets the list style? not needed since it is set to none*/
+.header div ul {
+    list-style-type: none;
+}
+/*makes the tabs sit next to eachother*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*sets the hyperlink tabs color and removes underline*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*sets the size of the paragrapgh text*/
+p {
+    font-size: 16px;
+}
+/*".lg-img" makes the first large image that spans the width of the width of the webpage */
+.lg-img {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*moves things to the left margin of their container*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*moves things to the right margin of their container*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*gives the 3 main topics a width along the page*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*adds the box on the right with the benefits*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*adds text color and a margin between the Lead Generation and the next element*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*adds text color and a margin between Brand Awareness and the next element*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*adds text color and a margin between Cost Management and the next element*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*makes the Lead Generation header centered and gives it a margin */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*makes the Brand Awareness header centered and gives it a margin */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*makes the Cost Management header centered and gives it a margin */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*sets the location and size of the Lead Generation image*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*sets the location and size of the Brand Awareness image*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*sets the location and size of the Cost Management image*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*creates the area where Search Engine Optimization was mentioned*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*creates the area where Online Reputation Management was mentioned*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*creates the area where Social Media Marketing was mentioned*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*sets the height of the Search Engine Optimization image*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*sets the height of the Online Reputation Management image*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/*sets the height of the Social Media Marketing image*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*adds margin and size to the Search Engine Optimization header*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*adds margin and size to the Online Reputation Management header*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*adds margin and size to the Social Media Marketing header*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*sets the location and font of the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*sets the size of the footer text*/
+.footer h2 {
+    font-size: 20px;
+}
