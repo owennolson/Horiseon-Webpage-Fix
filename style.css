@@ -75,6 +75,60 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+/*creates the area where Search Engine Optimization was mentioned*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*creates the area where Online Reputation Management was mentioned*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*creates the area where Social Media Marketing was mentioned*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*sets the height of the Search Engine Optimization image*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*sets the height of the Online Reputation Management image*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/*sets the height of the Social Media Marketing image*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*adds margin and size to the Search Engine Optimization header*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*adds margin and size to the Online Reputation Management header*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*adds margin and size to the Social Media Marketing header*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 /*adds the box on the right with the benefits*/
 .benefits {
     margin-right: 20px;
@@ -135,60 +189,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/*creates the area where Search Engine Optimization was mentioned*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*creates the area where Online Reputation Management was mentioned*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*creates the area where Social Media Marketing was mentioned*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*sets the height of the Search Engine Optimization image*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-/*sets the height of the Online Reputation Management image*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-/*sets the height of the Social Media Marketing image*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-/*adds margin and size to the Search Engine Optimization header*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/*adds margin and size to the Online Reputation Management header*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/*adds margin and size to the Social Media Marketing header*/
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
 /*sets the location and font of the footer*/
 .footer {
     padding: 30px;
