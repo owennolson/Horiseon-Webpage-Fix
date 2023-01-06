@@ -25,19 +25,19 @@ body {
     color: #d9dcd6;
 }
 /*sets the tabs to the right side of the header and gives them font and size*/
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*sets the list style? not needed since it is set to none*/
-.header div ul {
+/*sets the list style*/
+.header nav ul {
     list-style-type: none;
 }
 /*makes the tabs sit next to eachother*/
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -55,7 +55,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -74,6 +74,65 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+/*adds the box on the right with the benefits*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*adds text color and a margin between the Lead Generation and the next element*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*adds text color and a margin between Brand Awareness and the next element*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*adds text color and a margin between Cost Management and the next element*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*makes the Lead Generation header centered and gives it a margin */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*makes the Brand Awareness header centered and gives it a margin */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*makes the Cost Management header centered and gives it a margin */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*sets the location and size of the Lead Generation image*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*sets the location and size of the Brand Awareness image*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*sets the location and size of the Cost Management image*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 /*creates the area where Search Engine Optimization was mentioned*/
 .search-engine-optimization {
@@ -129,67 +188,6 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*adds the box on the right with the benefits*/
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-/*adds text color and a margin between the Lead Generation and the next element*/
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/*adds text color and a margin between Brand Awareness and the next element*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/*adds text color and a margin between Cost Management and the next element*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/*makes the Lead Generation header centered and gives it a margin */
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/*makes the Brand Awareness header centered and gives it a margin */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/*makes the Cost Management header centered and gives it a margin */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/*sets the location and size of the Lead Generation image*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*sets the location and size of the Brand Awareness image*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*sets the location and size of the Cost Management image*/
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 /*sets the location and font of the footer*/
 .footer {
     padding: 30px;
@@ -198,6 +196,6 @@ p {
     text-align: center;
 }
 /*sets the size of the footer text*/
-.footer h3 {
+.footer h2 {
     font-size: 20px;
 }
