@@ -8,6 +8,8 @@ All the necessary files and code to fix the webpage for the Horiseon Management 
     -Gave the css and HTML a better structure that flows with the site
     -Added image alt attributes
     -Fixed the link in the nav bar
+## Image 
+![image](./images/owennolson.github.io_Horiseon-Webpage-Fix_.png)
 
 ## Installation
 
